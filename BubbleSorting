@@ -1,0 +1,30 @@
+def bubbleSortByYear(favouriteBooks):
+    count = len(favouriteBooks)
+
+    for i in range(count):
+
+        for j in range(0, count- i - 1):
+            if favouriteBooks[j]["published year"] > favouriteBooks[j + 1]["published year"]:
+                bookSwap=favouriteBooks[j]
+                favouriteBooks[j]=favouriteBooks[j + 1]
+                favouriteBooks[j + 1] = bookSwap
+
+
+
+book1={"published year":1949,"name":"Confessions of a Mask","author":"Yukio Mishima","genres":"Novels,fiction"}
+
+book2={"published year":2018,"name":"The Outsider","author":"Stephen King","genres":"Novel, Mystery, Thriller, Suspense, Horror fiction, Crime Fiction"}
+
+book3={"published year":1982,"name":"A wild Sheep Chase","author":"Haruki Murakami","genres":"Novel, Magical Realism, Fantasy Fiction"}
+
+favouriteBooks=[book1,book2,book3]
+bubbleSortByYear(favouriteBooks)
+
+length = len(favouriteBooks)
+for i in range(length):
+    print("Name: ", favouriteBooks[i]["name"])
+    print("Published year: ", favouriteBooks[i]["published year"])
+
+    print("Author: ", favouriteBooks[i]["author"])
+    print("Genres: ", favouriteBooks[i]["genres"])
+    print()
