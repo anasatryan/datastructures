@@ -1,0 +1,40 @@
+class QueueArray:
+    def __init__(self,size):
+        self.queue = []
+        for i in range(size):
+            self.queue.append(None)
+
+    def add(self,NewValue):
+        for i in range(len(self.queue)):
+            if self.queue[i] is None:
+                self.queue[i]=NewValue
+                return
+        self.resize()
+        last_index=int(len(self.queue)/2)
+        self.queue[last_index]=NewValue
+
+    def remove(self):
+        self.queue.pop(0)
+        self.queue.append(None)
+
+    def first(self):
+        return self.queue[0]
+
+    def last(self):
+        l_index = self.last_index()
+        return self.queue[l_index]
+
+    def last_index(self):
+        for i in range(len(self.queue)):
+            if self.queue[i] is None:
+                return i-1
+        return len(self.queue)-1
+
+    def resize(self):
+        b = []
+        for i in range(len(self.queue)):
+            b.append(None)
+        self.queue = self.queue + b
+
+    def print_deque(self):
+        print (self.queue)
