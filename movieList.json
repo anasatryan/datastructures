@@ -1,0 +1,68 @@
+
+    {
+      "Parasite": {
+        "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan. ",
+        "year": "2019",
+        "director": "Bong Joon Ho",
+        "genre":"Comedy, Drama, Thriller"
+      },
+      "Jojo Rabbit": {
+        "description":"An early lead for Ben Whishaw as the ailing John Keats romancing Fanny Brawne (Abbie Cornish) is the tremulous soul of this underappreciated Jane Campion drama. The butterflies are too tropical for Hampstead, but the rest is spot-on",
+        "year": "2019",
+        "director":"Taika Waititi",
+        "genre": "Comedy, Drama, War"
+      },
+       "Moonlight": {
+        "description":"A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
+        "year": "2016",
+        "director":"Barry Jenkins",
+        "genre": "Drama"
+    },
+      "The Dark Knight":{
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "year": "2008",
+        "director": "Christopher Nolan",
+        "genre": "Action, Crime, Drama"
+
+      },
+      "Inception ": {
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "year": "2010",
+        "director": "Christopher Nolan",
+        "genre": "Action, Adventure, Sci-Fi"
+      },
+
+       "Son of Saul": {
+        "description":"A Jewish-Hungarian concentration camp prisoner sets out to give a child he mistook for his son a proper burial.",
+        "year":"2015",
+        "director":"László Nemes",
+        "genre":"Drama, War"
+      },
+        "Lincoln": {
+        "description": "As the American Civil War continues to rage, America's president struggles with continuing carnage on the battlefield as he fights with many inside his own cabinet on the decision to emancipate the slaves.",
+        "year":"2012",
+        "director":"Steven Spielberg ",
+        "genre":"Biography, Drama, History"
+      },
+      "Avatar": {
+        "description":"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "year":"2009",
+        "director":"James Cameron",
+        "genre":"Action, Adventure, Fantasy"
+      },
+       "Mad Max: Fury Road": {
+        "description":"In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+        "year":"2015",
+        "director":"George Miller",
+        "genre":"Action, Adventure, Sci-Fi"
+      },
+
+      "Logan": {
+        "description":"In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+        "year":"2017",
+        "director":"James Mangold",
+        "genre":"Action, Drama, Sci-Fi"
+      }
+    }
+
+
